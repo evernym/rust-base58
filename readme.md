@@ -1,4 +1,4 @@
-# rust-base58
+# rust-base58v2
 
 Conversion library for [base-58](http://en.wikipedia.org/wiki/Base58). Currently it uses the Bitcoin base58 alphabet:
 
@@ -13,15 +13,15 @@ Add this to `Cargo.toml`:
 
 ```toml
 [dependencies]
-rust-base58 = "*"
+rust-base58v2 = "0.0.4"
 ```
 
 and use it like this:
 
 ```rust
-extern crate rust_base58;
+extern crate rust_base58v2;
 
-use rust_base58::{ToBase58, FromBase58};
+use rust_base58v2::{ToBase58, FromBase58};
 
 fn main() {
     let x = &[1, 2, 3];

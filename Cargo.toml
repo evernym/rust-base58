@@ -5,8 +5,8 @@ authors = ["Nick Hamann <nick@wabbo.org>",
            "Lovesh Harchandani lovesh.harchandani@evernym.com",
            "Matt Raffel matt.raffel@evernym.com"]
 license = "MIT/Apache-2.0"
-homepage = "https://github.com/nham/rust-base58"
-repository = "https://github.com/nham/rust-base58"
+homepage = "https://github.com/evernym/rust-base58"
+repository = "https://github.com/evernym/rust-base58"
 description = """
 Simple library for converting to and from base-58 strings.  This crate is a fork and repacking of orginal rust-base58 crate by Nick Hamann, as it appears the original is no longer maintained.
 """
